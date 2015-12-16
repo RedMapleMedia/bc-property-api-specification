@@ -31,7 +31,8 @@ paths:
           type: integer
       responses:
         "200": 
-          description: Property matching search parameters.
+          description: 
+            List of Properties matching search parameters.
           headers: 
             X-results-count:
               description: Total number of results available. 
@@ -43,7 +44,7 @@ paths:
               $ref: '#/definitions/SearchResult'
         "209": 
           description: 
-            List of Properties if more than 1 page of results found matching search parameters.
+            List of Properties matching search parameters where more than 1 page of results found.
           headers: 
             X-results-count:
               description: Total number of results available. 
