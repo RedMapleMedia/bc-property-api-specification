@@ -130,6 +130,10 @@ definitions:
       rollNumFormatted:
             type: string
             description: A "unique" identifier when combined with Jurisdiction that identifies a specific folio.  Different formats for roll numbers exist, depending on the Jurisdiction.  
+      propertyAddress:
+            type: string
+            description: Formatted concatenation of address fields
+            
   Property:
     type: object
     properties:
@@ -187,10 +191,10 @@ definitions:
         cityDesc:
             type: string
             description: Name of the city in which the property resides.
-        postalZip:
+        postalCode:
             type: string
             description: Postal code of the property.
-        provinceState:
+        province:
             type: string
             description: Province of the property.
         propertyAddress:
