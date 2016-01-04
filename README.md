@@ -13,7 +13,7 @@ Here at BC Assessment (BCA) we are exploring the potential of developing a new A
 Please read the [Discussion Guide](https://github.com/BCDevExchange/bc-property-api-specification/tree/master/BCA%20API%20Discussion%20Guide) for more information, including how you can participate in this project.  
 
 ## Swagger Definition
-We will be posting a Swagger definition in the code directory soon.
+A Swagger definition has recently been posted as a starting point for further conversation.
 
 ## Usage
 This development map illustrates our thinking on how we could collaborate on the API spec, and potentially on code for the API too.
